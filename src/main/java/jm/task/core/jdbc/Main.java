@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         // реализуйте алгоритм здесь
         UserServiceImpl userDao = new UserServiceImpl();
+        userDao.dropUsersTable();
 
         userDao.createUsersTable();
 
